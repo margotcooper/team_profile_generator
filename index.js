@@ -1,4 +1,7 @@
-class Manager {
+
+
+
+const Manager = new Employee () {
   constructor(name, employeeid, email, officenumber) {
     this.name = name;
     this.employeeid = employeeid;

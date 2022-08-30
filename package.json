@@ -10,7 +10,8 @@
   "scripts": {
     "test": "jest --verbose test/*",
     "start": "node index.js",
-    "reset": "node reset.js"
+    "reset": "node reset.js",
+    "quicksave": "git add . && git commit -m \"quicksave\" && git push"
   },
   "author": "",
   "license": "ISC",
